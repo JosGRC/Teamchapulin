@@ -23,7 +23,7 @@ int main(){
 	printf("Amount of Odd numbers: %d\n\n", oddCounter);
 	
 	int finIndex = find(arr, len, look);
-	printf("Fin number Value: %d\t\t| \tFin number Index: %d\n", arr[finIndex], finIndex);
+	printf("Find number Value: %d\t\t| \tFind number Index: %d\n", arr[finIndex], finIndex);
 	
 	return 0;
 }
