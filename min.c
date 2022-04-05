@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int arr[] = {34,65,32,65,9,3};
+int arr[] = {4,7,86,45,64,23,7,3};
 int len = sizeof(arr)/sizeof(arr[0]);    
-int look = 65;
+int look = 64;
 
 int main(){
 	system("clear");
@@ -22,8 +22,8 @@ int main(){
 	int oddCounter = odd(arr, len);
 	printf("Amount of Odd numbers: %d\n\n", oddCounter);
 	
-	int finIndex = find(arr, len, look);
-	printf("Find number Value: %d\t\t| \tFind number Index: %d\n", arr[finIndex], finIndex);
+	int finIndex = fin(arr, len, look);
+	printf("Fin number Value: %d\t\t| \tFin number Index: %d\n", arr[finIndex], finIndex);
 	
 	return 0;
 }
